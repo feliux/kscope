@@ -44,7 +44,7 @@ make run
 - `make btf` generates `internal/ebpf/vmlinux.h` using system BTF.
 - The binary is created at `bin/kscope`.
 - Running requires `sudo`.
-- `m̀ake run` execute kscope in `observe` mode
+- `make run` execute kscope in `observe` mode
 
 ## Quick usage
 
