@@ -1,0 +1,9 @@
+
+*.o
+
+internal/ebpf/*_bpfel.go
+internal/ebpf/*_bpfeb.go
+internal/ebpf/vmlinux.h
+
+bin/
+docs/*.md

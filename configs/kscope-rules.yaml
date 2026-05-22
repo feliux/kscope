@@ -1,0 +1,20 @@
+proxy:
+  listen_v4: "127.0.0.1:18080"
+  listen_v6: "[::1]:18080"
+  redirect_v4: "127.0.0.1:18080"
+  redirect_v6: "[::1]:18080"
+
+rules:
+  pids:
+    - 1234
+    - 5678
+  comms:
+    - "curl"
+    - "wget"
+  ips:
+    - "140.82.121.4:443"
+    - "10.0.0.5"
+    - "[2001:db8::1]:443"
+  domains:
+    - "github.com:443"
+    - "example.com"
